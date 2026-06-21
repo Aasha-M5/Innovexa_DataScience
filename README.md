@@ -1,4 +1,4 @@
-# 🎓 Student Performance Analysis & Prediction System
+# Student Performance Analysis & Prediction System
 
 This project focuses on analyzing and predicting student academic performance using Machine Learning. The dataset contains student information such as study hours, attendance, previous marks, assignments, projects, participation level, behavior, and extracurricular activities.
 
