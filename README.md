@@ -1,12 +1,10 @@
 # 🎓 Student Performance Analysis & Prediction System
 
-## 📌 Project Overview
-This project analyzes student academic performance and predicts final scores using Machine Learning. The objective is to identify key factors that influence student success and build a predictive model for performance analysis.
+This project focuses on analyzing and predicting student academic performance using Machine Learning. The dataset contains student information such as study hours, attendance, previous marks, assignments, projects, participation level, behavior, and extracurricular activities.
 
-## 🎯 Objective
-To predict student final scores based on factors such as study hours, attendance, previous marks, assignments, projects, participation, behavior, and extracurricular activities.
+The project includes data cleaning, exploratory data analysis (EDA), feature engineering, model building, and model evaluation. Multiple machine learning models were trained and compared, including Linear Regression, Decision Tree Regressor, Random Forest Regressor, and Support Vector Regressor (SVR).
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - Google Colab
 - Pandas
@@ -15,57 +13,23 @@ To predict student final scores based on factors such as study hours, attendance
 - Seaborn
 - Scikit-Learn
 
-## 📊 Dataset Features
-- Gender
-- Study Hours
-- Attendance Percentage
-- Previous Marks
-- Participation Level
-- Assignment Score
-- Project Score
-- Test Score
-- Behavior
-- Extracurricular Activities
-- Final Score
+## Project Workflow
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Train-Test Split
+- Model Building
+- Model Evaluation
+- Results & Insights
 
-## 🔍 Project Workflow
-1. Data Cleaning & Preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Feature Engineering
-4. Train-Test Split
-5. Model Building
-6. Model Evaluation
-7. Results & Insights
+## Results
+Random Forest Regressor achieved the best performance with an R² Score of **94.8%**.
 
-## 🤖 Machine Learning Models
-- Linear Regression
-- Decision Tree Regressor
-- Random Forest Regressor
-- Support Vector Regressor (SVR)
-
-## 🏆 Results
-
-| Model | R² Score |
-|---------|---------|
-| Linear Regression | 0.936 |
-| Decision Tree | 0.809 |
-| Random Forest | **0.948** |
-| SVR | 0.777 |
-
-**Best Model:** Random Forest Regressor
-
-## 📈 Key Insights
+## Key Insights
 - Previous Marks strongly influence Final Score.
-- Higher Attendance improves academic performance.
-- Increased Study Hours generally lead to better results.
-- Active Participation positively impacts performance.
-- Random Forest achieved the highest prediction accuracy.
+- Attendance has a positive impact on academic performance.
+- Study Hours contribute significantly to student success.
+- Active Participation improves overall performance.
 
-## ✅ Conclusion
-The project successfully predicts student performance using machine learning techniques. Random Forest Regressor achieved the best results with 94.8% prediction accuracy (R² Score).
-
-## 🚀 Future Scope
-- Real-time student performance tracking
-- Web-based dashboard integration
-- Advanced machine learning models
-- Early warning system for at-risk students
+## Conclusion
+This project demonstrates how machine learning can be used to predict student performance and identify factors that contribute to academic success.
