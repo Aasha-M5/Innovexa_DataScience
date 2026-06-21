@@ -26,4 +26,4 @@ Built and compared four machine learning models
 Achieved 94.8% R² accuracy using Random Forest Regressor
 Identified important factors affecting student performance
 
-This version sounds much more like something a 3rd-year student would naturally write in a GitHub README.
+
